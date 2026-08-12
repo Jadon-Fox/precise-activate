@@ -1,0 +1,18 @@
+{
+  "name": "precise-activate",
+  "version": "1.0.0",
+  "description": "Precise Activate \u2014 zero-deviation agentic execution for Grok Build. /activate protocol + morph-shared + planner/implementer/verifier.",
+  "author": {
+    "name": "Jadon Fox",
+    "url": "https://github.com/Jadon-Fox"
+  },
+  "homepage": "https://github.com/Jadon-Fox/precise-activate",
+  "license": "MIT",
+  "keywords": [
+    "activate",
+    "precise-activate",
+    "morph-shared",
+    "zero-deviation",
+    "evidence-before-claims"
+  ]
+}
