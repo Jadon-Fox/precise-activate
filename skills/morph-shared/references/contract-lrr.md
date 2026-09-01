@@ -1,3 +1,5 @@
+> **DEAD ALIAS (museum):** do not load this as a live skill. Do not execute this pipeline. Live gate is honest-prompt-rewrite.
+
 # CONTRACT_LRR — Logic · Ration · Reason
 
 Gate on every contraction. Expand may stretch; contract may not invent.

@@ -1,6 +1,6 @@
 {
   "name": "precise-activate",
-  "description": "Precise Activate \u2014 zero-deviation agentic execution. /activate + morph-shared + planner/implementer/verifier.",
+  "description": "MUSEUM. Do not install. Dead alias of Twinglass /activate. morph-shared must not be loaded.",
   "category": "workflow",
   "source": {
     "source": "url",
@@ -10,6 +10,7 @@
   "keywords": [
     "activate",
     "precise-activate",
-    "morph-shared"
+    "museum",
+    "dead-alias"
   ]
 }

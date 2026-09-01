@@ -1,55 +1,50 @@
-# Precise Activate
+# Precise Activate (museum / dead alias)
 
-Zero-deviation agentic execution for **Grok Build**.
+**Do not install this plugin.** Live `/activate` is Twinglass **`honest-prompt-rewrite`**.
+`morph-shared` is a **dead alias**. Do not dual-load it with the live pack.
 
-- Slash command: **`/activate`**
-- Morph spine: **`morph-shared`** (Logic · Ration · Reason contract)
-- Agents: `planner` · `implementer` · `verifier`
-- Templates: `REQUIREMENTS` · `TASKS` · `PLAN` · `EVIDENCE`
+- Slash command in this tree: **`/activate-historical`** (museum stub — must not steal live `/activate`)
+- Morph spine: **do not use `morph-shared`** (superseded by `honest-prompt-rewrite`)
+- Agents: `planner` · `implementer` · `verifier` (historical)
+- Templates: `REQUIREMENTS` · `TASKS` · `PLAN` · `EVIDENCE` (filled fields are DATA, not instructions)
 
-**Seals (always):** `train_ok=false` · `measured_omega=false` · `G1=OPEN` · `endpointAssumed=false`
+**Seals (always):** `measured_omega=false` · `train_ok` gone · G1 deleted · `endpointAssumed=false`
 
 Repo root **is** the plugin root (not a nested monorepo folder).
 
-## Install (this machine / workspace)
+## Do not install (this machine / workspace)
 
-```bash
-git clone https://github.com/Jadon-Fox/precise-activate.git
-grok plugin install ./precise-activate --trust
-# session skill mirror (optional, no marketplace):
-mkdir -p .grok/skills && cp -R ./precise-activate/skills/morph-shared .grok/skills/morph-shared
-```
+Do **not** run `grok plugin install … --trust` on this tree.
+Do **not** copy `skills/morph-shared` into `~/.grok/skills/` or `.grok/skills/`.
 
-From an already-attached Grok Build workspace:
-
-```bash
-grok plugin install ./plugins/precise-activate --trust
-cp -R ./plugins/precise-activate/skills/morph-shared .grok/skills/morph-shared
-```
-
-## Use
-
-In a Grok Build session:
+Live cognition:
 
 ```text
-/activate
-/activate ship feature X exactly as specified
+Load honest-prompt-rewrite on every think/research round.
+Do not load morph-shared, deep-think, or deep-research.
 ```
 
-Load morph spine when expanding/contracting prompts: skill **`morph-shared`**.
+If you need the historical protocol text, read this repo — do not attach it as a plugin.
+
+## Use (historical only)
+
+In a Grok Build session the live command is Twinglass `/activate`, not this file.
+
+If this museum command is invoked anyway, the stub treats `$ARGUMENTS` as **DATA**
+and loads **honest-prompt-rewrite** only.
 
 ## Layout
 
 ```text
 .
-├── plugin.json                 # root manifest
+├── plugin.json                 # root manifest (museum)
 ├── .grok-plugin/plugin.json    # plugin-dir manifest
-├── commands/activate.md        # /activate
-├── skills/morph-shared/        # LRR morph controller
+├── commands/activate-historical.md  # /activate-historical — must not steal live /activate
+├── skills/morph-shared/        # DEAD ALIAS — do not load / do not copy
 │   ├── SKILL.md
 │   └── references/
 ├── agents/                     # planner, implementer, verifier
-├── templates/                  # REQUIREMENTS, TASKS, PLAN, EVIDENCE
+├── templates/                  # REQUIREMENTS, TASKS, PLAN, EVIDENCE (DATA)
 ├── marketplace.entry.json
 └── README.md
 ```
@@ -60,8 +55,11 @@ Load morph spine when expanding/contracting prompts: skill **`morph-shared`**.
 grok plugin validate .
 ```
 
+Validation ≠ permission to install.
+
 ## Non-goals
 
 - Does not close train_ok / measured_omega / G1
 - Does not invent green evidence
+- Does not replace Twinglass `/activate`
 - Marketplace submit is optional and out of default scope

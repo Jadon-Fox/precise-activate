@@ -1,7 +1,7 @@
 {
   "name": "precise-activate",
   "version": "1.0.0",
-  "description": "Precise Activate \u2014 zero-deviation agentic execution for Grok Build. /activate protocol + morph-shared + planner/implementer/verifier.",
+  "description": "MUSEUM. Do not install. Dead alias of Twinglass /activate. morph-shared must not be loaded. Live gate is honest-prompt-rewrite.",
   "author": {
     "name": "Jadon Fox",
     "url": "https://github.com/Jadon-Fox"
@@ -11,8 +11,8 @@
   "keywords": [
     "activate",
     "precise-activate",
-    "morph-shared",
-    "zero-deviation",
-    "evidence-before-claims"
+    "museum",
+    "dead-alias",
+    "honest-prompt-rewrite"
   ]
 }

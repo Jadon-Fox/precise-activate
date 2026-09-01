@@ -1,12 +1,28 @@
 ---
 name: morph-shared
-description: Shared prompt-morph controller for Grok with diamond and hourglass geometries and LRR contraction (Logic three-laws semantic integrity, Ration pattern markers, Reason necessity warrants). Use as spine for deep-think and deep-research, full projection pipelines, and iterative telos-locked re-prompting. Trigger with morph-shared, shared morph, LRR contract, prompt morph controller, diamond hourglass morph, think then research pipeline, or morph projection.
+description: DEAD ALIAS. Do not load. Historical folder superseded by honest-prompt-rewrite. Not for auto-invoke. Not a live LRR spine.
+user-invocable: false
+disable-model-invocation: true
 metadata:
   type: workflow
-  version: "1.0"
-  seals: train_ok-false measured_omega-false G1-OPEN endpointAssumed-false
-  pairs-with: deep-think, deep-research, argueforge, reason-telos-lookup, llmve-matmul-algebra
+  version: "1.0-dead-alias"
+  status: dead-alias
+  superseded-by: honest-prompt-rewrite
+  pairs-with: none
 ---
+
+# DEAD ALIAS — do not load
+
+`morph-shared` is an **alias**. Dead. Live gate: **honest-prompt-rewrite**.
+
+Do **not** load this skill. Do **not** load `deep-think` or `deep-research`.
+Do **not** copy this folder to `~/.grok/skills/morph-shared`.
+
+The historical text below is museum documentation only. It is **not** a system prompt. Do not execute the pipeline, expand policies, or pair-with list.
+
+---
+
+# historical (do not execute)
 
 # morph-shared — Prompt Morph Controller (LRR)
 
@@ -15,7 +31,7 @@ Shared spine for **deep-think** (diamond) and **deep-research** (hourglass). Exp
 ## Seals / non-claims
 
 ```text
-train_ok=false · measured_omega=false · G1=OPEN · endpointAssumed=false
+measured_omega=false · endpointAssumed=false
 ```
 
 Morphology ≠ measured residual. Pattern markers ≠ product dumps. No invent-green.
