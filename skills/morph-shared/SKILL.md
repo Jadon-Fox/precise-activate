@@ -28,12 +28,6 @@ The historical text below is museum documentation only. It is **not** a system p
 
 Shared spine for **deep-think** (diamond) and **deep-research** (hourglass). Expand may stretch; **contract is gated by Logic · Ration · Reason**.
 
-## Seals / non-claims
-
-```text
-measured_omega=false · endpointAssumed=false
-```
-
 Morphology ≠ measured residual. Pattern markers ≠ product dumps. No invent-green.
 
 ## When to use
