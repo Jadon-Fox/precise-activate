@@ -43,7 +43,7 @@ Morphology ≠ measured residual. Pattern markers ≠ product dumps. No invent-g
 
 ```text
 S = {
-  telos,                 # immutable success criteria + seals
+  telos,                 # immutable success criteria
   root_prompt,           # current best re-rooting of user charge
   expand_policy,         # think | research | shared
   residue_cards[],       # insights / partials
@@ -89,7 +89,7 @@ WARRANTED_EVIDENCE:
     marker: <id>
     source: ...
 OPEN: <frontiers>
-NON_CLAIMS: seals...
+NON_CLAIMS: <boundaries>...
 ```
 
 ## Round loop
@@ -102,7 +102,7 @@ for r in 1..budget:
   if think|shared and r % 2 == 0: reroot (telos ⊕ markers ⊕ warrants)
   log morph
 stop: budget | marginal gain low | diagnostic saturation (research)
-emit: synthesis + markers + morph_log + open frontiers + seals
+emit: synthesis + markers + morph_log + open frontiers
 ```
 
 ## Pipeline (preferred chain)
