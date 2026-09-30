@@ -25,7 +25,7 @@ Not measured_omega. Proxies only.
 ### A — Steer then chart
 1. deep-think morph-diamond (user direction knobs)
 2. pass S (markers, residue, telos) to deep-research hourglass-EDC
-3. final synthesis under seals
+3. final synthesis
 
 ### B — Shared projection
 1. morph-shared expand_policy=shared for N rounds
